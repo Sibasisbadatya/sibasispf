@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+    <script src="main.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="toggle">
+        <img src="../assets/menu.png" alt="">
+        {{!-- <img src="../assets/cl" alt=""> --}}
+    </div>
+    <div class="toggled">
+        <ul>
+            <li><a href="/">HOME</a></li>
+            <li><a href="#div1">ABOUT</a></li>
+            <li><a href="#div2">PROJECTS</a></li>
+            <li><a href="#div4">CONTACT</a></li>
+            <li><a href="signup">SIGN UP</a></li>
+            <li><a href="login">LOG IN</a></li>
+        </ul>
+    </div>
+    {{!-- <button id="bg">DARK MODE</button> --}}
+    <!-- main div (1st page) -->
+    <div class="main">
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="#div1">About</a></li>
+                <li><a href="#div2">Projects</a></li>
+                <li><a href="#div4">Contact</a></li>
+                <li><a href="signup">SignUp</a></li>
+                <li><a href="login">LogIn</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="front" id="backbg">
+        <div class="name"><span>I</span><span> am </span><span>Siba</span><span>sis</span><span> Badatya</span><span>
+                .</span><br>
+        </div>
+        <div class="about">Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br> Expedita tenetur, sunt
+            explicabo dignissimos error, iusto totam rerum, laborum est nemo asperiores consequuntur debitis?<br> Eaque
+            dolorum soluta, sunt autem voluptatum commodi.</div>
+    </div>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <!-- 2nd div (2nd page of about page) -->
+    <div class="aboutpage" id="div1">
+        <div class="education">
+            <div class="edhead" align="center">EDUCATIONAL DETAILS</div>
+            <div class="study">
+                <div class="image" id="matimg"><img src="../assets/jnv.jpg" alt=""></div>
+                <div class="dscpr" id="matdscpr">
+                    <div class="mib">MATRICULATION</div>
+                    <div class="mibd">I have passed my Matricukation from Jawahar Navodaya Vidyalaya,Ganjam With 92.6 %
+                        in 2018.
+                    </div>
+                </div>
+            </div>
+            <div class="study">
+                <div class="image" id="intimg"><img src="../assets/jnv.jpg" alt=""></div>
+                <div class="dscpr" id="intdscpr">
+                    <div class="mib">INTERMEDIATE</div>
+                    <div class="mibd">I have passed my Intermediate from Jawahar Navodaya Vidyalaya,Ganjam With 93.2 %
+                        in 2018</div>
+                </div>
+            </div>
+            <div class="study" id="studyrev">
+                <div class="dscpr" id="btechdscpr">
+                    <div class="mib">B.TECH</div>
+                    <div class="mibd">Currently I am persuing my B.Tech degree from Veer Surendra Sai Universit of
+                        Technology,Burla.Current CGPA=8.1
+                    </div>
+                </div>
+                <div class="image" id="btimg"><img src="../assets/vssut.jpg" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <!-- project page -->
+    <div class="propage" id="div2">
+        <div class="prohead" align="center">SOME PROJECTS</div>
+        <div class="prolist">
+            <div class="pros">
+                <div class="image"><img src="../assets/pro1.jpg" alt=""></div>
+                <div class="dscpr">
+                    <div class="proname" align="center">MOVIE DB</div>
+                    <div class="prodet" align="center">An application that serves the information of the movie that you
+                        want to search.This Application is created by using HTML ,CSS and JAVASCRIPT.</div>
+                    <div class="link"> <a href="https://github.com/Sibasisbadatya/calculator.github.io"> <span>github
+                                link</span></a>
+                        <a href="https://sibasisbadatya.github.io/calculator.github.io/"> <span>try here</span></a>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="pros">
+                <div class="image"><img src="../assets/pro2.jpg" alt=""></div>
+                <div class="dscpr">
+                    <div class="proname" align="center">DIGITAL CALCULATOR</div>
+                    <div class="prodet" align="center">This calculator is same as the calculator we usually using in our
+                        daily life.
+                        This caculator is made by using HTML ,CSS and JAVASCRIPT.
+                    </div>
+                    <div class="link"> <a href="https://github.com/Sibasisbadatya/calculator.github.io"> <span
+                                color="red">github link</span></a>
+                        <a href="https://sibasisbadatya.github.io/calculator.github.io/"><span>try here</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="pros">
+                <div class="image"><img src="../assets/pic16.jpeg" alt=""></div>
+                <div class="dscpr">
+                    <div class="proname" align="center">REAL TIME CHAT-APP</div>
+                    <div class="prodet" align="center">This is an real-time chatapp that can be used when 2 or more user
+                        is connected simountaneously with the application link .This app is made by using HTML,CSS and
+                        JAVSSCRIPT and some libraries like socket.io .</div>
+                    <div class="link"> <a href="https://github.com/Sibasisbadatya/calculator.github.io"> <span>github
+                                link</span></a>
+                        <a href="https://sibasisbadatya.github.io/calculator.github.io/"><span>try here</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- hobbies page -->
+    <div class="hobpage" id="div3">
+        <div class="hobhead" align="center">MY HOBBIES</div>
+        <div class="hoblist">
+            <div class="hobs">
+                <div class="image"><img src="../assets/cricket.jpg" alt=""></div>
+                <div class="dscpr">
+                    <div class="hobname" align="center">PLAYING CRICKET</div>
+                    <!-- <div class="hobdet" align="center">An application that serves the information of the movie that you
+                        want to search.This Application is created by using HTML ,CSS and JAVASCRIPT.</div> -->
+                </div>
+            </div>
+            <div class="hobs">
+                <div class="image"><img src="../assets/cycling.jpg" alt=""></div>
+                <div class="dscpr">
+                    <div class="hobname" align="center">CYCLING</div>
+                    <!-- <div class="hobdet" align="center">This calculator is same as the calculator we usually using in our
+                        daily life.
+                        This caculator is made by using HTML ,CSS and JAVASCRIPT.
+                    </div> -->
+                </div>
+            </div>
+            <div class="hobs">
+                <div class="image"><img src="../assets/games.jpg" alt=""></div>
+                <div class="dscpr">
+                    <div class="hobname" align="center">MOBILE GAMES</div>
+                    <!-- <div class="hobdet" align="center">This is an real-time chatapp that can be used when 2 or more user
+                        is connected simountaneously with the application link .This app is made by using HTML,CSS and
+                        JAVSSCRIPT and some libraries like socket.io .</div> -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <!-- last page of contact section -->
+    <div class="end" id="div4">
+        <footer>
+            <ul>`
+                <li><a
+                        href="https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=120&lwc=1348028"><img
+                            src="../assets/fb.png" alt=""></a></li>
+                <li><a href="https://www.instagram.com/accounts/login/"><img src="../assets/insta.png" alt=""></a></li>
+                <li><a href="https://www.linkedin.com/in/sibasis-badatya-3459a0238"><img src="../assets/ld.png"
+                            alt=""></a></li>
+            </ul>
+            <div class="copy" align="center"><span>SIBASIS BADATYA <span>&#169; </span> 2023 ,ALL RIGHTS RESERVED
+                </span></div>
+        </footer>
+    </div>
+    <script>
+        const tg = document.querySelector(".toggle");
+        const tgd = document.querySelector(".toggled");
+        tg.addEventListener("click", (e) => {
+            e.preventDefault();
+            if (tgd.style.display === "none") {
+                tgd.style.display = "block";
+                tg.innerHTML = ` <img src="../assets/close1.png" alt="">`;
+                tg.style.color="burlywood";
+            } else {
+                tgd.style.display = "none";
+                tg.innerHTML = ` <img src="../assets/menu.png" alt="">`;
+            }
+        })
+    </script>
+</body>
+
+</html>

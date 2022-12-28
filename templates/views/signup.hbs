@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/signup.css">
+</head>
+
+<body>
+    <div class="signup">
+        <!-- <div class="heading" align="center">Log In</div> -->
+        <div id="supimage"></div>
+        <div id="supform">
+            <div class="heading">SIGN UP</div><br><br><br>
+            <form action="/signup" method="POST">
+                <div> <label for="text" class="label">Username</label><br>
+                    <div class="input"> <input type="text" required="required" name="username" ><hr color="red"></div>
+                </div>
+                <div> <label for="email" class="label">Enter Email</label><br>
+                    <div class="input"> <input type="email" required="required" name="email" ><hr color="red"></div>
+                </div>
+                <br>
+                <div> <label for="password" class="label">Password</label><br>
+                    <div class="input"> <input type="password" required="required" name="password"><hr color="red"></div>
+                </div>
+                <div> <label for="password" class="label">Repeat Password</label><br>
+                    <div class="input"> <input type="password" required="required" name="rpassword"><hr color="red"></div>
+                </div>
+                <br>
+                <div class="alternate"><a href="login">Log In</a><button type="submit">Submit</button></div>
+            </form>
+        </div>
+
+    </div>
+</body>
+
+</html>

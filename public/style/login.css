@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@200&family=Neucha&family=PT+Sans&family=Poppins:wght@500&family=Staatliches&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../assets/pic8.jpg");
+    background-size: cover;
+}
+
+.login {
+    padding: 3rem;
+    position: absolute;
+    top: 15vh;
+    height: 60vh;
+    width: 70vw;
+    background-color: #38ada9;
+    position: relative;
+}
+
+.heading {
+    height: 10%;
+    font-size: 3rem;
+    font-family: 'Staatliches', cursive;
+}
+
+.login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logimage {
+    height: 80%;
+    width: 50%;
+    background-color: aqua;
+    background-image: url("../assets/login.jpg");
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    background-size: cover;
+}
+
+#logform {
+    color: white;
+    height: 80%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #0a3d62;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+#logform>form>div {
+    height: 30%;
+    width: 80%;
+    position: relative;
+}
+
+#logform>form>div>.label {
+    font-family: 'Poppins', sans-serif;
+    color: aqua;
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+#logform>form>div>.input {
+    height: 30%;
+    width: 100%;
+}
+
+#logform>form>div>.input>input {
+    color: antiquewhite;
+    height: 100%;
+    width: 70%;
+    font-size: 2;
+    margin-top: 5px;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    border-bottom: 10px cyan;
+}
+
+#logform>form>div {
+    margin-bottom: 0.1rem;
+}
+
+#logform>form {
+    height: 70%;
+    width: 80%;
+}
+
+.alternate {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    height: 10%;
+    color: cyan;
+    display: flex;
+    justify-content: space-around;
+}
+
+.alternate>a {
+    color: cyan;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.alternate>button {
+    height: 50%;
+    width: 40%;
+    outline: none;
+    background-color: #F8EFBA;
+    border: none;
+}
+
+@media only screen and (max-width:520px) {
+    .login {
+        height: 70vh;
+        width: 80vw;
+        flex-direction: column;
+        position: relative;
+    }
+
+    #logimage {
+        height: 37%;
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+
+    #logform {
+        color: white;
+        height: 59%;
+        width: 100%;
+    }
+
+    .alternate {
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .alternate>button {
+        height: 35%;
+        width: 75%;
+    }
+
+    .label {
+        font-size: 1.5rem;
+    }
+
+    .alternate>a {
+        margin-bottom: 1rem;
+    }
+}

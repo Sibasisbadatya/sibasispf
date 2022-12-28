@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@200&family=Neucha&family=PT+Sans&family=Poppins:wght@500&family=Staatliches&display=swap');
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.front {
+    height: 100vh;
+    width: 90vw;
+}
+
+.name {
+    position: absolute;
+    bottom: 40rem;
+    font-size: 6rem;
+    left: 20rem;
+    color: red;
+    font-family: 'Poppins', sans-serif;
+}
+
+.name>span:nth-child(2n+1) {
+    color: whitesmoke;
+}
+
+.about {
+    font-size: 2rem;
+    color: #dff9fb;
+    left: 23rem;
+    font-family: 'PT Sans', sans-serif;
+    position: absolute;
+    bottom: 25rem;
+}
+
+body {
+    background-color: black;
+    padding-top: 3rem;
+}
+
+nav>ul {
+    display: flex;
+    justify-content: end;
+    list-style: none;
+}
+
+li {
+    margin-left: 6rem;
+    font-size: 1.5rem;
+}
+
+nav>ul>li>a {
+    color: antiquewhite;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    text-decoration: none;
+}
+
+.end {
+    height: 65vh;
+    width: 100vw;
+    position: relative;
+}
+
+.end>footer>ul>li>a>img {
+    color: white;
+    height: 5rem;
+    width: 5rem;
+}
+
+.end>footer {
+    height: 60%;
+    width: 100%;
+    background-image: linear-gradient(to top, #1B1464, rgba(255, 0, 0, 0));
+    position: absolute;
+    bottom: 0rem;
+}
+
+.end>footer>ul {
+    bottom: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+    list-style: none;
+}
+
+.ending {
+    width: 100%;
+    display: grid;
+    place-items: center;
+    position: absolute;
+    bottom: 20rem;
+    color: antiquewhite;
+}
+
+.copy {
+    color: antiquewhite;
+    position: absolute;
+    letter-spacing: 2px;
+    font-family: 'Staatliches', cursive;
+    font-size: 2.5rem;
+    bottom: 0rem;
+    height: 5rem;
+    width: 100vw;
+}
+
+@media only screen and (max-width:520px) {
+
+    .about {
+        font-size: 1rem;
+        color: #dff9fb;
+        left: 6rem;
+        bottom: 25rem;
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: 3rem;
+    }
+
+    .name {
+        position: absolute;
+        bottom: 40rem;
+        font-size: 4rem;
+        left: 10rem;
+    }
+
+    nav>ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    li {
+        margin-left: 3rem;
+        font-size: 1rem;
+    }
+
+    .end {
+        height: 25vh;
+        width: 100vw;
+        position: relative;
+    }
+
+    .copy {
+        letter-spacing: 1.5px;
+        font-size: 1.5rem;
+        height: 3.5rem;
+    }
+
+    .end>footer>ul {
+        justify-content: center;
+        margin-top: 0rem;
+    }
+}
